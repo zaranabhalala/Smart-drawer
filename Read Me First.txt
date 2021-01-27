@@ -1,0 +1,21 @@
+Exported Database file:- SD.sql
+Code:- /Code/messanger: Back-end maven project (Rest Web-Services)
+       /Code/SmrtDrw2: Front-end java web application(JSP web pages and W.S integration code.
+
+Jars:- There is no need of jars in messanger(maven) project.
+       But, there is need of few jars in SmrtDrw2 project.which is available in jars folder.
+
+
+System Constraints:
+
+*First you need to add tags in to tag bank
+*Than Item and person should be mapped with tags.
+*One tag can be mapped with only one person/item.
+*Mapping can not be done if any unmapped pair of tag and person/item found.
+*Take care of transaction which should not be done by unmapped tag(or which tag is not presant in system)
+*First and last sacnned tag should be Person's(for identify session and transaction)
+*Project should be run on localhost:8082 port(to run it 404 error free).
+*you need to first run/deploy messanger project before run UI pages
+*Database connection file is in messanger folder.
+*admin Login:askdhyan@gmail.com
+hello       Password:goOd2168

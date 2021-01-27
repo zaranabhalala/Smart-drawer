@@ -1,0 +1,276 @@
+package org.apache.jsp.flex_002dadmin_002dv1_2;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.jsp.*;
+
+public final class blank_jsp extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+
+  private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
+
+  private static java.util.List<String> _jspx_dependants;
+
+  private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
+
+  public java.util.List<String> getDependants() {
+    return _jspx_dependants;
+  }
+
+  public void _jspService(HttpServletRequest request, HttpServletResponse response)
+        throws java.io.IOException, ServletException {
+
+    PageContext pageContext = null;
+    HttpSession session = null;
+    ServletContext application = null;
+    ServletConfig config = null;
+    JspWriter out = null;
+    Object page = this;
+    JspWriter _jspx_out = null;
+    PageContext _jspx_page_context = null;
+
+    try {
+      response.setContentType("text/html");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, true, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      session = pageContext.getSession();
+      out = pageContext.getOut();
+      _jspx_out = out;
+      _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
+
+      out.write("<!DOCTYPE html>\n");
+      out.write("<html lang=\"en\">\n");
+      out.write("    <!-- Mirrored from themes.startbootstrap.com/flex-admin-v1.2/blank.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Mar 2017 06:10:50 GMT -->\n");
+      out.write("    <head>\n");
+      out.write("\n");
+      out.write("        <meta charset=\"utf-8\">\n");
+      out.write("        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n");
+      out.write("        <meta name=\"description\" content=\"\">\n");
+      out.write("        <meta name=\"author\" content=\"\">\n");
+      out.write("\n");
+      out.write("        <title>Smart Drawer Admin</title>\n");
+      out.write("\n");
+      out.write("        <!-- PACE LOAD BAR PLUGIN - This creates the subtle load bar effect at the top of the page. -->\n");
+      out.write("        <link href=\"css/plugins/pace/pace.css\" rel=\"stylesheet\">\n");
+      out.write("        <script src=\"js/plugins/pace/pace.js\"></script>\n");
+      out.write("\n");
+      out.write("        <!-- GLOBAL STYLES - Include these on every page. -->\n");
+      out.write("        <link href=\"css/plugins/bootstrap/css/bootstrap.min.css\" rel=\"stylesheet\">\n");
+      out.write("        <link href='../../fonts.googleapis.com/css3ef8.css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic' rel=\"stylesheet\" type=\"text/css\">\n");
+      out.write("        <link href='../../fonts.googleapis.com/css5c84.css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel=\"stylesheet\" type=\"text/css\">\n");
+      out.write("        <link href=\"icons/font-awesome/css/font-awesome.min.css\" rel=\"stylesheet\">\n");
+      out.write("\n");
+      out.write("        <!-- PAGE LEVEL PLUGIN STYLES -->\n");
+      out.write("\n");
+      out.write("        <!-- THEME STYLES - Include these on every page. -->\n");
+      out.write("        <link href=\"css/style.css\" rel=\"stylesheet\">\n");
+      out.write("        <link href=\"css/plugins.css\" rel=\"stylesheet\">\n");
+      out.write("\n");
+      out.write("        <!-- THEME DEMO STYLES - Use these styles for reference if needed. Otherwise they can be deleted. -->\n");
+      out.write("        <link href=\"css/demo.css\" rel=\"stylesheet\">\n");
+      out.write("    </head>\n");
+      out.write("\n");
+      out.write("    <body>\n");
+      out.write("\n");
+      out.write("        <div id=\"wrapper\">\n");
+      out.write("\n");
+      out.write("            <!-- begin TOP NAVIGATION -->\n");
+      out.write("            <nav class=\"navbar-top\" role=\"navigation\">\n");
+      out.write("\n");
+      out.write("                <!-- begin BRAND HEADING -->\n");
+      out.write("                <div class=\"navbar-header\">\n");
+      out.write("                    <button type=\"button\" class=\"navbar-toggle pull-right\" data-toggle=\"collapse\" data-target=\".sidebar-collapse\">\n");
+      out.write("                        <i class=\"fa fa-bars\"></i> Menu\n");
+      out.write("                    </button>\n");
+      out.write("                    <div class=\"navbar-brand\">\n");
+      out.write("                        <a href=\"Transaction.jsp\">\n");
+      out.write("                            <h4 class=\"responsive\" ; style=\"color:white;\"><B>&nbsp; &nbsp; &nbsp; Smart Drawer </B></h4>\n");
+      out.write("                            <!--<img src=\"img/SDlogo.jpg\" class=\"img-responsive\" alt=\"\"> -->\n");
+      out.write("                        </a>\n");
+      out.write("                    </div>\n");
+      out.write("                </div>\n");
+      out.write("                <!-- end BRAND HEADING -->\n");
+      out.write("\n");
+      out.write("                <div class=\"nav-top\">\n");
+      out.write("\n");
+      out.write("                    <!-- begin LEFT SIDE WIDGETS -->\n");
+      out.write("                    <ul class=\"nav navbar-left\">\n");
+      out.write("                        <li class=\"tooltip-sidebar-toggle\">\n");
+      out.write("                            <a href=\"#\" id=\"sidebar-toggle\" data-toggle=\"tooltip\" data-placement=\"right\" title=\"Sidebar Toggle\">\n");
+      out.write("                                <i class=\"fa fa-bars\"></i>\n");
+      out.write("                            </a>\n");
+      out.write("                        </li>\n");
+      out.write("                        <!-- You may add more widgets here using <li> -->\n");
+      out.write("                    </ul>\n");
+      out.write("                    <!-- end LEFT SIDE WIDGETS -->\n");
+      out.write("\n");
+      out.write("                    <!-- begin MESSAGES/ALERTS/TASKS/USER ACTIONS DROPDOWNS -->\n");
+      out.write("                    <ul class=\"nav navbar-right\">\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("                        <!-- begin USER ACTIONS DROPDOWN -->\n");
+      out.write("                        <li class=\"dropdown\">\n");
+      out.write("                            <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">\n");
+      out.write("                                <i class=\"fa fa-user\"></i>  <i class=\"fa fa-caret-down\"></i>\n");
+      out.write("                            </a>\n");
+      out.write("                            <ul class=\"dropdown-menu dropdown-user\">\n");
+      out.write("                                <li>\n");
+      out.write("                                    <a href=\"profile.html\">\n");
+      out.write("                                        <i class=\"fa fa-user\"></i> My Profile\n");
+      out.write("                                    </a>\n");
+      out.write("                                </li>\n");
+      out.write("                                \n");
+      out.write("                                <li class=\"divider\"></li>\n");
+      out.write("                                \n");
+      out.write("                                <li>\n");
+      out.write("                                    <a class=\"logout_open\" href=\"#logout\">\n");
+      out.write("                                        <a href=\"http://localhost:8082/SmrtDrw2/flex-admin-v1.2/login.jsp\"><i class=\"fa fa-sign-out\"></i> Logout</a>\n");
+      out.write("                                        \n");
+      out.write("                                    </a>\n");
+      out.write("                                </li>\n");
+      out.write("                            </ul>\n");
+      out.write("                            <!-- /.dropdown-menu -->\n");
+      out.write("                        </li>\n");
+      out.write("                        <!-- /.dropdown -->\n");
+      out.write("                        <!-- end USER ACTIONS DROPDOWN -->\n");
+      out.write("\n");
+      out.write("                    </ul>\n");
+      out.write("                    <!-- /.nav -->\n");
+      out.write("                    <!-- end MESSAGES/ALERTS/TASKS/USER ACTIONS DROPDOWNS -->\n");
+      out.write("\n");
+      out.write("                </div>\n");
+      out.write("                <!-- /.nav-top -->\n");
+      out.write("            </nav>\n");
+      out.write("            <!-- /.navbar-top -->\n");
+      out.write("            <!-- end TOP NAVIGATION -->\n");
+      out.write("\n");
+      out.write("            <!-- begin SIDE NAVIGATION -->\n");
+      out.write("            <nav class=\"navbar-side\" role=\"navigation\">\n");
+      out.write("                <div class=\"navbar-collapse sidebar-collapse collapse\">\n");
+      out.write("                    <ul id=\"side\" class=\"nav navbar-nav side-nav\">\n");
+      out.write("                        <!-- begin SIDE NAV USER PANEL -->\n");
+      out.write("                        <li class=\"side-user hidden-xs\">\n");
+      out.write("                            <img class=\"img-circle\" src=\"img/eiTRAlogo2.jpg\" alt=\"\">\n");
+      out.write("                            <p class=\"welcome\">\n");
+      out.write("                                <i class=\"fa fa-key\"></i> Logged in as\n");
+      out.write("                            </p>\n");
+      out.write("                            <p class=\"name tooltip-sidebar-logout\">\n");
+      out.write("                                Dhyan\n");
+      out.write("                                <span class=\"last-name\">Patel</span> <a style=\"color: inherit\" class=\"logout_open\" href=\"login.jsp\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Logout\"><i class=\"fa fa-sign-out\"></i></a>\n");
+      out.write("                            </p>\n");
+      out.write("                            <div class=\"clearfix\"></div>\n");
+      out.write("                        </li>\n");
+      out.write("                        <!-- end SIDE NAV USER PANEL -->\n");
+      out.write("                        <!-- begin SIDE NAV SEARCH -->\n");
+      out.write("                        <li class=\"nav-search\">\n");
+      out.write("                            <form role=\"form\">\n");
+      out.write("                                <input type=\"search\" class=\"form-control\" placeholder=\"Search...\">\n");
+      out.write("                                <button class=\"btn\">\n");
+      out.write("                                    <i class=\"fa fa-search\"></i>\n");
+      out.write("                                </button>\n");
+      out.write("                            </form>\n");
+      out.write("                        </li>\n");
+      out.write("                        <!-- end SIDE NAV SEARCH -->\n");
+      out.write("                        <!-- begin DASHBOARD LINK -->\n");
+      out.write("                        <li>\n");
+      out.write("                            <a href=\"Transaction.jsp\">\n");
+      out.write("                                <i class=\"fa fa-dashboard\"></i> Transaction Log\n");
+      out.write("                            </a>\n");
+      out.write("                        </li>\n");
+      out.write("                        <!-- end DASHBOARD LINK -->\n");
+      out.write("\n");
+      out.write("                        <!-- begin Drawer LINK -->\n");
+      out.write("                        <li>\n");
+      out.write("                            <a href=\"drawer.jsp\">\n");
+      out.write("                                <i class=\"fa fa-edit\"></i> Drawer\n");
+      out.write("                            </a>\n");
+      out.write("                        </li>\n");
+      out.write("                        <!-- end Drawer LINK -->\n");
+      out.write("\n");
+      out.write("                        <!-- begin Person LINK -->\n");
+      out.write("                        <li>\n");
+      out.write("                            <a href=\"person_table.jsp\">\n");
+      out.write("                                <i class=\"fa fa-edit\"></i> Person\n");
+      out.write("                            </a>\n");
+      out.write("                        </li>\n");
+      out.write("                        <!-- end Person LINK -->\n");
+      out.write("\n");
+      out.write("                        <!-- begin Item LINK -->\n");
+      out.write("                        <li>\n");
+      out.write("                            <a href=\"View-items.jsp\">\n");
+      out.write("                                <i class=\"fa fa-edit\"></i> Item\n");
+      out.write("                            </a>\n");
+      out.write("                        </li>\n");
+      out.write("                        <!-- end Item LINK -->\n");
+      out.write("\n");
+      out.write("                        <!-- begin Tag Bank LINK -->\n");
+      out.write("                        <li>\n");
+      out.write("                            <a href=\"tagBank_table.jsp\">\n");
+      out.write("                                <i class=\"fa fa-edit\"></i> Tag Bank\n");
+      out.write("                            </a>\n");
+      out.write("                        </li>\n");
+      out.write("                        <!-- end Tag Bank LINK -->\n");
+      out.write("\n");
+      out.write("                        <!-- begin Map Tag LINK -->\n");
+      out.write("                        <li>\n");
+      out.write("                            <a href=\"tag_map_item.jsp\">\n");
+      out.write("                                <i class=\"fa fa-edit\"></i> Map Item Tag\n");
+      out.write("                            </a>\n");
+      out.write("                        </li>\n");
+      out.write("\n");
+      out.write("                        <li>\n");
+      out.write("                            <a href=\"tag_map_person.jsp\">\n");
+      out.write("                                <i class=\"fa fa-edit\"></i> Map Person Tag\n");
+      out.write("                            </a>\n");
+      out.write("                        </li>\n");
+      out.write("\n");
+      out.write("                        <!-- end Map Tag LINK -->\n");
+      out.write("                    </ul>\n");
+      out.write("                    <!-- /.side-nav -->\n");
+      out.write("                </div>\n");
+      out.write("                <!-- /.navbar-collapse -->\n");
+      out.write("            </nav>\n");
+      out.write("            <!-- /.navbar-side -->\n");
+      out.write("            <!-- end SIDE NAVIGATION -->\n");
+      out.write("        </div>\n");
+      out.write("        <!-- /#wrapper -->\n");
+      out.write("\n");
+      out.write("        <!-- GLOBAL SCRIPTS -->\n");
+      out.write("        <script src=\"../../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\"></script>\n");
+      out.write("        <script src=\"js/plugins/bootstrap/bootstrap.min.js\"></script>\n");
+      out.write("        <script src=\"js/plugins/slimscroll/jquery.slimscroll.min.js\"></script>\n");
+      out.write("        <script src=\"js/plugins/popupoverlay/jquery.popupoverlay.js\"></script>\n");
+      out.write("        <script src=\"js/plugins/popupoverlay/defaults.js\"></script>\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("        <!-- Logout Notification jQuery -->\n");
+      out.write("        <script src=\"js/plugins/popupoverlay/logout.js\"></script>\n");
+      out.write("        <!-- HISRC Retina Images -->\n");
+      out.write("        <script src=\"js/plugins/hisrc/hisrc.js\"></script>\n");
+      out.write("\n");
+      out.write("        <!-- PAGE LEVEL PLUGIN SCRIPTS -->\n");
+      out.write("\n");
+      out.write("        <!-- THEME SCRIPTS -->\n");
+      out.write("        <script src=\"js/flex.js\"></script>\n");
+      out.write("\n");
+      out.write("    </body>\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("    <!-- Mirrored from themes.startbootstrap.com/flex-admin-v1.2/blank.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Mar 2017 06:10:50 GMT -->\n");
+      out.write("</html>\n");
+    } catch (Throwable t) {
+      if (!(t instanceof SkipPageException)){
+        out = _jspx_out;
+        if (out != null && out.getBufferSize() != 0)
+          out.clearBuffer();
+        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
+        else throw new ServletException(t);
+      }
+    } finally {
+      _jspxFactory.releasePageContext(_jspx_page_context);
+    }
+  }
+}

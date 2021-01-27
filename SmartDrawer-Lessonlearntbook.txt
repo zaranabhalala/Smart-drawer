@@ -1,0 +1,16 @@
+Lesson learnt Book for Smart Drawer
+
+Technical:-
+	Deal with open source responsive web-templates
+	Identifying and modification in CSS classes for specific task
+	Maven and Postman
+	Restful web-service using Jersey framework
+	Webservice Integration with UI
+
+
+Non-Technical:-
+	Work ownership
+	Deal with daily task and reporting
+	Work with deadlines
+	Team work
+
